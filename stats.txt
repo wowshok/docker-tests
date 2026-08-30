@@ -1,0 +1,2 @@
+CONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+7d4848443586   grafana   0.04%     64.58MiB / 1.926GiB   3.27%     685kB / 10.3MB   2.09MB / 20.5MB   10

@@ -1,0 +1,21 @@
+logger=settings t=2026-08-30T18:37:53.50667645Z level=info msg="Starting Grafana" version= commit= branch= compiled=1970-01-01T00:00:00Z
+logger=settings t=2026-08-30T18:37:53.506891253Z level=warn msg="\"sentry\" frontend logging provider is deprecated and will be removed in the next major version. Use \"grafana\" provider instead."
+logger=settings t=2026-08-30T18:37:53.506917617Z level=info msg="Config loaded from" file=/usr/share/grafana/conf/defaults.ini
+logger=settings t=2026-08-30T18:37:53.506938631Z level=info msg="Config overridden from Environment variable" var="GF_PATHS_DATA=/var/lib/grafana"
+logger=settings t=2026-08-30T18:37:53.506950659Z level=info msg="Config overridden from Environment variable" var="GF_PATHS_LOGS=/var/log/grafana"
+logger=settings t=2026-08-30T18:37:53.506959187Z level=info msg="Config overridden from Environment variable" var="GF_PATHS_PLUGINS=/var/lib/grafana/plugins"
+logger=settings t=2026-08-30T18:37:53.506967667Z level=info msg="Config overridden from Environment variable" var="GF_PATHS_PROVISIONING=/etc/grafana/provisioning"
+logger=settings t=2026-08-30T18:37:53.506975979Z level=info msg=Target target=[all]
+logger=settings t=2026-08-30T18:37:53.506996905Z level=info msg="Path Home" path=/usr/share/grafana
+logger=settings t=2026-08-30T18:37:53.507005524Z level=info msg="Path Data" path=/var/lib/grafana
+logger=settings t=2026-08-30T18:37:53.50701363Z level=info msg="Path Logs" path=/var/log/grafana
+logger=settings t=2026-08-30T18:37:53.507021768Z level=info msg="Path Plugins" path=/var/lib/grafana/plugins
+logger=settings t=2026-08-30T18:37:53.507030044Z level=info msg="Path Provisioning" path=/etc/grafana/provisioning
+logger=settings t=2026-08-30T18:37:53.507038186Z level=info msg="App mode production"
+logger=sqlstore t=2026-08-30T18:37:53.507086852Z level=info msg="Connecting to DB" dbtype=sqlite3
+logger=migrator t=2026-08-30T18:37:53.525408876Z level=info msg="Starting DB migrations"
+logger=migrator t=2026-08-30T18:37:53.530312429Z level=info msg="migrations completed" performed=0 skipped=484 duration=460.119µs
+logger=secrets t=2026-08-30T18:37:53.531093377Z level=info msg="Envelope encryption state" enabled=true currentprovider=secretKey.v1
+
+Admin password changed successfully ✔
+
